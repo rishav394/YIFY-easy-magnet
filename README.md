@@ -12,6 +12,6 @@ Select open Command Prompt window here <br>
 Type the file name allong with .rb in the end <br>
 To compile use `ocra name.rb`
 
-#Source
+# API
 Used YIFY official api v2<br>
 For documentation https://yts.am/api
