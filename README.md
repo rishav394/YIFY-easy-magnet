@@ -15,3 +15,21 @@ To compile use `ocra name.rb`
 # API
 Used YIFY official api v2<br>
 For documentation https://yts.am/api
+
+
+<h2>Downloads</h2>
+<table>
+<th>
+  <td>
+  Version
+  </td>
+<td>Link</td>
+</th>
+<tr>
+<td>1.09</td>
+<td>(Latest release)</td>
+  <td>
+  <a href="https://github.com/rishav394/YIFY-easy-magnet/releases/download/v1%2C3/YIFY.exe">Click Here</a>
+  </td>
+</tr>
+</table>
