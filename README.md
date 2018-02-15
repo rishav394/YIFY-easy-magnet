@@ -26,7 +26,7 @@ For documentation https://yts.am/api
 <td>Link</td>
 </th>
 <tr>
-<td>1.09</td>
+<td>1.3</td>
 <td>(Latest release)</td>
   <td>
   <a href="https://github.com/rishav394/YIFY-easy-magnet/releases/download/v1%2C3/YIFY.exe">Click Here</a>
