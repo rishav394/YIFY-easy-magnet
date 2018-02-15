@@ -4,7 +4,7 @@ require 'restclient'
 require 'crack'
 require 'io/console'
 require "fileutils"
-
+require 'clipboard'
 
 reset = 1
 while reset!=0
@@ -18,7 +18,7 @@ while reset!=0
 			puts "#{i+1}. #{data["data"]["movies"][i]["title"]}"#+"\t\t\t"+data["data"]["movies"][i]["torrents"][0]["hash"]
 			i+=1
 		end
-		puts "0. Reset"
+		puts "0/ENTER. Reset"
 		inp=gets
 		inp=inp.to_i
 		if inp>0
@@ -33,6 +33,8 @@ while reset!=0
 			TORRENT_HASH=data["data"]["movies"][inp-1]["torrents"][i]["hash"]
 			MLINK="magnet:?xt=urn:btih:#{TORRENT_HASH}&dn=ez&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopentor.org%3A2710&tr=udp%3A%2F%2Ftracker.ccc.de%3A80&tr=udp%3A%2F%2Ftracker.blackunicorn.xyz%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969"
 			puts MLINK
+			Clipboard.copy(MLINK)
+			puts "\nCopied to clipboard successfully. Press Ctrl+V to paste. "
 			xfile=File.open("Magnet.txt","w")
 			xfile.write(MLINK)
 			xfile.close
