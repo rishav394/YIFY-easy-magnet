@@ -26,10 +26,10 @@ For documentation https://yts.am/api
 <td>Link</td>
 </th>
 <tr>
-<td>1.3</td>
+<td>1.5</td>
 <td>(Latest release)</td>
   <td>
-  <a href="https://github.com/rishav394/YIFY-easy-magnet/releases/download/v1%2C3/YIFY.exe">Click Here</a>
+  <a href="https://github.com/rishav394/YIFY-easy-magnet/releases/download/v1.5/YIFY.exe">Click Here</a>
   </td>
 </tr>
 </table>
